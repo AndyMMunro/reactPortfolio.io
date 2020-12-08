@@ -1,18 +1,30 @@
 import React from "react";
-import Navbar from 'react-bootstrap/Navbar';
+import { Navbar,Nav} from 'react-bootstrap';
+import "./styles.css"
 
-function Nav() {
-
+class BootstrapNavbar extends React.Component{
+  render(){
+    
   return(
-    <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#about">About</Nav.Link>
-      <Nav.Link href="#projects">Projects</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
-    </Nav>
-  </Navbar>
-  );
+    <Navbar bg="dark" variant="dark" sticky="top">
+      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Nav className="justify-content-center" activeKey="/home">
+          <Nav.Item>
+            <Nav.Link href="/home">Home</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="link-1">About</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="link-2">Project</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link eventKey="link-3" >Contact</Nav.Link>
+          </Nav.Item>
+      </Nav>
+    </Navbar>
+
+    );
+  }
 }
-export default Nav;
+export default BootstrapNavbar;

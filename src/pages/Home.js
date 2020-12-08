@@ -1,14 +1,19 @@
 import React from "react";
 import Container from "../components/Container";
-
+import Carousel from "../components/Carousel";
+import Wrapper from "../components/Wrapper"
 
 function Home () {
-    
+
 return (
     <div>
         <Container style={{ minHeight: "100vh" }}>
-                <h1 className="text-center">First thing to see</h1>
-             
+            <Wrapper>
+
+                <Carousel/>
+
+            </Wrapper>
+            
         </Container>
     </div>
     );
