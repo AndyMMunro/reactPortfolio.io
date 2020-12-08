@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { Navbar,Nav} from 'react-bootstrap';
 import "./styles.css"
 
@@ -10,16 +12,16 @@ class BootstrapNavbar extends React.Component{
       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="justify-content-center" activeKey="/home">
           <Nav.Item>
-            <Nav.Link href="/home">Home</Nav.Link>
+            <Link to="/" className="nav-link">Home</Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1">About</Nav.Link>
+            <Link to="/about" className="nav-link">About</Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2">Project</Nav.Link>
+          <Link to="/projects" className="nav-link">Projects</Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-3" >Contact</Nav.Link>
+          <Link to="/contact" className="nav-link">Contacts</Link>
           </Nav.Item>
       </Nav>
     </Navbar>
