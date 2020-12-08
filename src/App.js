@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer"
 import Container from "./components/Container";
-
 // import About from "./pages/About";
 // import Projects from "./pages/Projects";
 // import Contact from "./pages/Contact";
@@ -15,7 +14,6 @@ function App() {
   // console.log("hope this works");
   return (
     <Router>
-      <div>
           <Container>
             <Nav />
               <Route path="/" component={Home} />
@@ -24,7 +22,6 @@ function App() {
               {/* <Route path="/contact" component={Contact} /> */}
             <Footer/>
           </Container>
-      </div>
     </Router>
   );
 }

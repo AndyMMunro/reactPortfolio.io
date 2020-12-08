@@ -5,9 +5,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import astronaut from "../Assets/Images/astronaut.JPG"
 import skydiving from "../Assets/Images/skydiving.JPG"
 import surf from "../Assets/Images/surf.JPG"
-
-
-// import "./style.css";
         
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
