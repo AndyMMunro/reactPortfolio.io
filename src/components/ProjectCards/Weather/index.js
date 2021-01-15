@@ -19,13 +19,12 @@ class BootstrapCardDeck extends React.Component{
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-    <ListGroupItem>Cras justo odio</ListGroupItem>
-    <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-    <ListGroupItem>Vestibulum at eros</ListGroupItem>
+    <ListGroupItem>Build Tech: JavaScript, Jquery, HTML, Node, AJAX.</ListGroupItem>
+    <ListGroupItem>Deployed: GitHub</ListGroupItem>
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+    <Card.Link href="https://github.com/AndyMMunro/weather.io">GitHub</Card.Link>
+    <Card.Link href="https://andymmunro.github.io/weather.io/">Deployed</Card.Link>
   </Card.Body>
 </Card>
     );

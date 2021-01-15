@@ -1,6 +1,6 @@
 {
   "name": "reactportfolio.io",
-  "homepage": "https://andymmunro.github.io/reactportfolio.io/",
+  "homepage": "http://localhost:3001/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

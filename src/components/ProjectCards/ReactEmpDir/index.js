@@ -14,18 +14,17 @@ class BootstrapCardDeck extends React.Component{
   <Card.Body>
     <Card.Title>Employee Directory</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    Front end react Employee Directory that allows the user to search via first name as well as sort via the first
+    name by clicking the name heading. I built it using primarily the useState hook..
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-    <ListGroupItem>Cras justo odio</ListGroupItem>
-    <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-    <ListGroupItem>Vestibulum at eros</ListGroupItem>
+    <ListGroupItem>Build Tech: React, Bootstrap, gh-pages, moment, node, JavaScript, axios. </ListGroupItem>
+    <ListGroupItem>Deployed: GitHub</ListGroupItem>
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="https://andymmunro.github.io/reactEmployeeDirectory.io/">Another Link</Card.Link>
+    <Card.Link href="https://github.com/AndyMMunro/reactEmployeeDirectory.io">GitHub</Card.Link>
+    <Card.Link href="https://andymmunro.github.io/reactEmployeeDirectory.io/">Deployed</Card.Link>
   </Card.Body>
 </Card>
     );

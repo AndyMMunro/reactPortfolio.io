@@ -14,18 +14,16 @@ class BootstrapCardDeck extends React.Component{
   <Card.Body>
     <Card.Title>Foodies</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    create a dish review application. By default, 10 restaurants near the user's location will populate with some information, and options to either view previous dish reviews or add a new dish review.
     </Card.Text>
   </Card.Body>
   <ListGroup className="list-group-flush">
-    <ListGroupItem>Cras justo odio</ListGroupItem>
-    <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-    <ListGroupItem>Vestibulum at eros</ListGroupItem>
+    <ListGroupItem> Build Tech:Node, Express, Sequelize, MySQL, Handlebars. </ListGroupItem>
+    <ListGroupItem>Deployed: Heroku</ListGroupItem>
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+    <Card.Link href="https://github.com/AndyMMunro/FoodiesParadise.io">GitHub</Card.Link>
+    <Card.Link href="https://foodiespardise.herokuapp.com/">Deployed</Card.Link>
   </Card.Body>
 </Card>
     );
