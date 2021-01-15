@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { Navbar,Nav} from 'react-bootstrap';
 import "./styles.css"
 
@@ -9,7 +8,7 @@ class BootstrapNavbar extends React.Component{
     
   return(
     <Navbar bg="dark" variant="dark" sticky="top">
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+      <Navbar.Brand href="/">Andy M</Navbar.Brand>
         <Nav className="justify-content-center" activeKey="/home">
           <Nav.Item>
             <Link to="/" className="nav-link">Home</Link>
@@ -22,6 +21,9 @@ class BootstrapNavbar extends React.Component{
           </Nav.Item>
           <Nav.Item>
           <Link to="/contact" className="nav-link">Contacts</Link>
+          </Nav.Item>
+          <Nav.Item>
+          <Link to="/loginform" className="nav-link">Login</Link>
           </Nav.Item>
       </Nav>
     </Navbar>

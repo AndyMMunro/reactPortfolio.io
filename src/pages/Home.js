@@ -6,12 +6,12 @@ import Wrapper from "../components/Wrapper"
 function Home () {
 
 return (
-            <Container style={{ minHeight: "100vh" }}>
-                <Wrapper>
-                    <Carousel/>
-                </Wrapper>
-            </Container>
-    );
+        <Container style={{ minHeight: "100vh" }}>
+            <Wrapper>
+                <Carousel/>
+            </Wrapper>
+        </Container>
+    );  
 
 };
 

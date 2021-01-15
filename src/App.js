@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import LoginForm from "./components/LoginForm/login";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Route exact path="/about" component={About} />
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/LoginForm" component={LoginForm} />
             <Footer/>
           </Container>
     </Router>

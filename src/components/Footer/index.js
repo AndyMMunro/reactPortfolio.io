@@ -8,7 +8,7 @@ class BootstrapBreadCrumb extends React.Component{
   return(
     
       <Breadcrumb>
-        <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="">Home</Breadcrumb.Item>
         <Breadcrumb.Item href="">About</Breadcrumb.Item>
         <Breadcrumb.Item href="">Projects</Breadcrumb.Item>
         <Breadcrumb.Item href="">Contact</Breadcrumb.Item>
