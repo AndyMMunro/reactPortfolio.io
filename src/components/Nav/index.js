@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar,Nav} from 'react-bootstrap';
+import logo from '../Assets/Images/logo.jpg'
 import "./styles.css"
 
 class BootstrapNavbar extends React.Component{
@@ -8,7 +9,7 @@ class BootstrapNavbar extends React.Component{
     
   return(
     <Navbar bg="dark" variant="dark" sticky="top">
-      <Navbar.Brand href="/">Andy M</Navbar.Brand>
+      <Navbar.Brand href="/" img={logo}></Navbar.Brand>
         <Nav className="justify-content-center" activeKey="/home">
           <Nav.Item>
             <Link to="/" className="nav-link">Home</Link>
