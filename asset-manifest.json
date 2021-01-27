@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/reactportfolio.io/static/css/main.b92e919e.chunk.css",
+    "main.js": "/reactportfolio.io/static/js/main.258df7ab.chunk.js",
+    "main.js.map": "/reactportfolio.io/static/js/main.258df7ab.chunk.js.map",
+    "runtime-main.js": "/reactportfolio.io/static/js/runtime-main.7c55acb6.js",
+    "runtime-main.js.map": "/reactportfolio.io/static/js/runtime-main.7c55acb6.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/reactportfolio.io/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.1c60def6.chunk.js": "/reactportfolio.io/static/js/2.1c60def6.chunk.js",
+    "static/js/2.1c60def6.chunk.js.map": "/reactportfolio.io/static/js/2.1c60def6.chunk.js.map",
+    "index.html": "/reactportfolio.io/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/reactportfolio.io/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.b92e919e.chunk.css.map": "/reactportfolio.io/static/css/main.b92e919e.chunk.css.map",
+    "static/js/2.1c60def6.chunk.js.LICENSE.txt": "/reactportfolio.io/static/js/2.1c60def6.chunk.js.LICENSE.txt",
+    "static/media/ReactEmpDir.35dd6c70.JPG": "/reactportfolio.io/static/media/ReactEmpDir.35dd6c70.JPG",
+    "static/media/WorkoutTracker.13bcf576.JPG": "/reactportfolio.io/static/media/WorkoutTracker.13bcf576.JPG",
+    "static/media/astronaut.72abaa72.JPG": "/reactportfolio.io/static/media/astronaut.72abaa72.JPG",
+    "static/media/index.css": "/reactportfolio.io/static/media/background.c224bd7f.png",
+    "static/media/foodiesParadise.699b87f1.JPG": "/reactportfolio.io/static/media/foodiesParadise.699b87f1.JPG",
+    "static/media/logo.aae67050.jpg": "/reactportfolio.io/static/media/logo.aae67050.jpg",
+    "static/media/quiz.3805f4a7.JPG": "/reactportfolio.io/static/media/quiz.3805f4a7.JPG",
+    "static/media/skydiving.d209d85c.JPG": "/reactportfolio.io/static/media/skydiving.d209d85c.JPG",
+    "static/media/surf.24bf78ec.JPG": "/reactportfolio.io/static/media/surf.24bf78ec.JPG",
+    "static/media/theburger.7f06bccf.JPG": "/reactportfolio.io/static/media/theburger.7f06bccf.JPG",
+    "static/media/weather.75dbbcde.JPG": "/reactportfolio.io/static/media/weather.75dbbcde.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c55acb6.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.1c60def6.chunk.js",
+    "static/css/main.b92e919e.chunk.css",
+    "static/js/main.258df7ab.chunk.js"
+  ]
+}
