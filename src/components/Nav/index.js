@@ -12,7 +12,7 @@ class BootstrapNavbar extends React.Component{
       <Navbar.Brand href="/" img={logo}></Navbar.Brand>
         <Nav className="justify-content-center" activeKey="/home">
           <Nav.Item>
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/reactportfolio.io" className="nav-link">Home</Link>
           </Nav.Item>
           <Nav.Item>
             <Link to="/about" className="nav-link">About</Link>
@@ -21,11 +21,15 @@ class BootstrapNavbar extends React.Component{
           <Link to="/projects" className="nav-link">Projects</Link>
           </Nav.Item>
           <Nav.Item>
-          <Link to="/contact" className="nav-link">Contacts</Link>
+          <Link to="/contact" className="nav-link">Contact</Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="email">
+          <Link to="/contact" className="nav-link">Email: Andymunro87@gmail.com</Link>
+          </Nav.Item>
+
+          {/* <Nav.Item>
           <Link to="/loginform" className="nav-link">Login</Link>
-          </Nav.Item>
+          </Nav.Item> */}
       </Nav>
     </Navbar>
 

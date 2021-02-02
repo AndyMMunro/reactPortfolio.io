@@ -2,15 +2,15 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
-import TheBurger from '../../Assets/Images/theburger.JPG'
+import Store from '../../Assets/Images/store.JPG'
 import "../card.css"
 
 class BootstrapCardDeck extends React.Component{
   render(){
     
   return(
-      <Card className = 'burger' >
-        <Card.Img variant="top" src={TheBurger} />
+      <Card className = 'store' >
+        <Card.Img variant="top" src={Store} />
         <Card.Body>
           <Card.Title>The Burger</Card.Title>
           <Card.Text>
@@ -23,8 +23,8 @@ class BootstrapCardDeck extends React.Component{
           <ListGroupItem>Deployed: Heroku</ListGroupItem>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="https://github.com/AndyMMunro/EatBurger.io">GitHub</Card.Link>
-          <Card.Link href=" https://andyeattheburger.herokuapp.com/">Deployed</Card.Link>
+          <Card.Link href="https://github.com/AndyMMunro/Store.io">GitHub</Card.Link>
+          <Card.Link href="https://basicstore8008.herokuapp.com/">Deployed</Card.Link>
         </Card.Body>
       </Card>
     );

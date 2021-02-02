@@ -8,10 +8,10 @@ class BootstrapBreadCrumb extends React.Component{
   return(
     
       <Breadcrumb>
-        <Breadcrumb.Item href="">Home</Breadcrumb.Item>
-        <Breadcrumb.Item href="">About</Breadcrumb.Item>
-        <Breadcrumb.Item href="">Projects</Breadcrumb.Item>
-        <Breadcrumb.Item href="">Contact</Breadcrumb.Item>
+        <Breadcrumb.Item href="/reactportfolio.io">Home</Breadcrumb.Item>
+        <Breadcrumb.Item href="/about">About</Breadcrumb.Item>
+        <Breadcrumb.Item href="/projects">Projects</Breadcrumb.Item>
+        <Breadcrumb.Item href="/contact">Contact</Breadcrumb.Item>
       </Breadcrumb>
     );
   }

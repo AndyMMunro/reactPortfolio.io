@@ -6,24 +6,15 @@ function Home () {
 
 return (
     <Container style={{ minHeight: "100vh" }}>
-        <Wrapper>
-      <div>
-          <p style= {{textIndent: "50px"}} >
-              To all interested parties, here is a brief history of Andy. thank you for checking out my
-              web page. Here
-              you will get a general idea of what kind of person I am both in and outside of the workplace including
-              but not limited
-              to skill set, interests and style. Please browse at your leisure and explore the content I have
-              provided. I hope you
-              find it incite full.
-          </p>
+        <Wrapper >
+      <div style= {{padding: "25px"}}>
           <p style= {{textIndent: "50px"}}>
                 To all interested parties, here is a brief history of Andy. 
                 Thank you for checking out my web page. Here you will get a 
                 general idea of what kind of person I am both in and outside of the 
                 workplace including but not limited to skill set, interests and style. 
                 Please browse at your leisure and explore the content I have provided. 
-                I hope you find it inciteful.
+                I hope you find it insightful.
           </p>
           <p style= {{textIndent: "50px"}}>
                 Skydiving resulted in me traveling all over the USA and adventuring in many other different sports and
