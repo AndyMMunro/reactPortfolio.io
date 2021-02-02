@@ -12,14 +12,14 @@ class BootstrapCardDeck extends React.Component{
       <Card className = 'store' >
         <Card.Img variant="top" src={Store} />
         <Card.Body>
-          <Card.Title>The Burger</Card.Title>
+          <Card.Title>The Store</Card.Title>
           <Card.Text>
-          Allows users to add information about burgers to their an MYSQL data base through the use of node.js 
-          express that can be moved from one area to another with the push of a button.
+          Allows users to shop for items from MYSQL data base through the use of node.js and 
+          express that can be moved from products area to the cart.
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroupItem>Build Tech: JavaScript, Express, Node, Handlebars, MYSQL.</ListGroupItem>
+          <ListGroupItem>Build Tech: JavaScript, Express, Node, React, MYSQL.</ListGroupItem>
           <ListGroupItem>Deployed: Heroku</ListGroupItem>
         </ListGroup>
         <Card.Body>
