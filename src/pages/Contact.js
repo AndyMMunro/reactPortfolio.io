@@ -18,7 +18,7 @@ return (
                             <Card.Link href="https://github.com/AndyMMunro/">GitHub</Card.Link>
                             <Card.Link href="https://www.linkedin.com/in/andy-munro/">LinkedIn</Card.Link>
                             <Card.Link href={Pdf} target="_blank">Resume</Card.Link>
-                            <Card.Text>Andymunro87@gmail</Card.Text>
+                            <Card.Text>Andymunro87@gmail.com</Card.Text>
                             <Card.Img variant="bottom" src={skydiving} />
                     </Card.Body>
                 </Card>
