@@ -19,7 +19,7 @@ class BootstrapCardDeck extends React.Component{
   </Card.Body>
   <ListGroup className="list-group-flush">
     <ListGroupItem> Build Tech:Node, Express, Sequelize, MySQL, Handlebars. </ListGroupItem>
-    <ListGroupItem>Deployed: Heroku</ListGroupItem>
+    <ListGroupItem>Deployed On: Heroku</ListGroupItem>
   </ListGroup>
   <Card.Body>
     <Card.Link href="https://github.com/AndyMMunro/FoodiesParadise.io">GitHub</Card.Link>

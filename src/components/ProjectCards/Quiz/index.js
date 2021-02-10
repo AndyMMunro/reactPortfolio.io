@@ -19,7 +19,7 @@ class BootstrapCardDeck extends React.Component{
   </Card.Body>
   <ListGroup className="list-group-flush">
     <ListGroupItem>Build Tech: JavaScript, Jquery, HTML, Node. </ListGroupItem>
-    <ListGroupItem>Deployed: GitHub</ListGroupItem>
+    <ListGroupItem>Deployed On: GitHub</ListGroupItem>
   </ListGroup>
   <Card.Body>
     <Card.Link href="https://github.com/AndyMMunro/Quiz.io">GitHub</Card.Link>

@@ -20,7 +20,7 @@ class BootstrapCardDeck extends React.Component{
   </Card.Body>
   <ListGroup className="list-group-flush">
     <ListGroupItem>Build Tech: React, Bootstrap, gh-pages, moment, node, JavaScript, axios. </ListGroupItem>
-    <ListGroupItem>Deployed: GitHub</ListGroupItem>
+    <ListGroupItem>Deployed On: GitHub</ListGroupItem>
   </ListGroup>
   <Card.Body>
     <Card.Link href="https://github.com/AndyMMunro/reactEmployeeDirectory.io">GitHub</Card.Link>

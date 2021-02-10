@@ -5,7 +5,7 @@ import Quiz from "../components/ProjectCards/Quiz/index";
 import Weather from "../components/ProjectCards/Weather/index";
 import WorkoutTracker from "../components/ProjectCards/WorkoutTracker/index";
 import ReactEmpDir from "../components/ProjectCards/ReactEmpDir/index";
-import EatBurger from "../components/ProjectCards/EatBurger/index";
+import Store from "../components/ProjectCards/Store/index";
 import {Col, Row, Container} from 'react-bootstrap';
 import "./project.css";
 
@@ -36,7 +36,7 @@ return (
                         </Col>
 
                         <Col>
-                            <EatBurger/>
+                            <Store/>
                         </Col>
                     </Row>
                 </Wrapper>
