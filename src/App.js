@@ -15,8 +15,8 @@ function App() {
   // console.log("hope this works");
   return (
     <Router>
+        <Nav />
           <Container>
-            <Nav />
               <Route  path='/reactportfolio.io' component={Home} />
               <Route  path='/about' component={About} />
               <Route  path='/projects' component={Projects} />
